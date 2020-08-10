@@ -24,3 +24,13 @@ echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Server=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Socks=y' >> .config
 echo 'CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y'  >> .config
+
+
+
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=n' >> .config
+echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
